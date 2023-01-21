@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="form-fields">
+          <div class="title">
+            <label for="input">Text field</label>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input Text"
+            required
+          /><br><br>
+        </div>
+        <div class="form-fields">
+          <div class="title">
+            <label for="selection">Select field</label>
+          </div>
+          <select name="dog-breed" id="select-dropdown">
+            <option value="none" selected disabled hidden>Select</option>
+            <option value="beagle">Beagle</option>
+            <option value="golden ret">Golden Retriever</option>
+            <option value="german">German Shepherd</option>
+          </select>
+        </div><br><br>
+        <div class="form-fields">
+          <div class="title">
+            <label for="A text area">Text Area</label>
+          </div>
+          <textarea name="big text area" id="" cols="30" rows="10" placeholder="Text Area"></textarea>
+        </div><br><br>
+        <div class="form-fields">
+          <div class="title">
+            <label for="text-field">Text Field with Add-ons</label>
+          </div><br><br>
+          <div class="hybrid-field">
+            <div class="hybrid-label">Label</div>
+            <div class="hybrid-input-text">
+              <input type="text" placeholder="Input Text" />
+            </div><br><br>
+            <div class="hybrid-button">
+              <button>Button</button>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+      <div class="right-container">
+        <div class="form-fields">
+          <input type="text" class="search-field" placeholder="Search" name="txtBox"/>
+        </div><br><br>
+            <div>
+                <input type="checkbox" class="butt">Checkbox
+            </div><br>
+            <div>
+                <input type="radio" class="butt" name="net">Radio Button
+            </div>
+            
+      </div>
+    </div>
+  </body>
+</html>
